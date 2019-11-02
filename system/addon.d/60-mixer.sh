@@ -2,9 +2,7 @@
 # 
 # /system/addon.d/60-mixer.sh
 #
-# Correct file has this md5sum:
-# s5neolte:/system/vendor/etc $ md5sum mixer_paths_0.xml
-# 712d34aa4c80d16b80c355899b8c9ceb  mixer_paths_0.xml
+
 . /tmp/backuptool.functions
 
 list_files() {
