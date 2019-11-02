@@ -1,0 +1,10 @@
+mount("ext4", "EMMC", "/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM", "/system", "");
+package_extract_dir("system", "/system");
+set_metadata_recursive("/system/vendor/etc/mixer_paths_0.xml", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644);
+set_metadata_recursive("/system/addon.d/60-mixer.sh", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+ui_print("************************");
+ui_print("MICGAIN by zeekoe / inspired by Heiler installed.");
+ui_print("This mod will survive ROM updates,");
+ui_print("as long as YOU dont format /system");
+ui_print("************************");
+set_progress(1.000000);
